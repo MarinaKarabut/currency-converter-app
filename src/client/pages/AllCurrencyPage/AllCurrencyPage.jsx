@@ -7,7 +7,6 @@ import Table from '../../../shared/components/Table'
 
 function AllCurrencyPage() {
     const currenciesList = useSelector(state => state.currencies.currencies, shallowEqual)
-    console.log(currenciesList);
 
     const dispatch = useDispatch()
 

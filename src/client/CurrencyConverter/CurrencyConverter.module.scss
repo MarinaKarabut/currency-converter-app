@@ -25,7 +25,7 @@
   }
   &FromCurrency {
     @include flex(center, center);
-    margin-top: 10px;
+    margin-top: 30px;
   }
   &ToCurrency {
     @include flex(center, center);
@@ -49,10 +49,7 @@
       width: 80px;
     }
   }
-  &Text {
-    text-align: center;
-    margin-top: 20px;
-  }
+
   &BtnWrapper {
     @include flex(center, center);
   }

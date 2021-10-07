@@ -4,7 +4,6 @@ import PropTypes from 'prop-types'
 import styles from './Table.module.scss'
 
 const Table = ({ currencies }) => {
-    console.log(currencies);
 
     function selectedArray(array) {
         const selectedEl = array.map(item => (
