@@ -1,0 +1,18 @@
+@import "src/shared/styles/_base";
+
+.navbarWrapper {
+  display: none;
+  @include tablet {
+    @include flex(flex-end, center);
+    padding: 25px;
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.05);
+  }
+}
+
+.burger {
+  display: block;
+  @include flex(flex-end);
+  @include tablet {
+    display: none;
+  }
+}

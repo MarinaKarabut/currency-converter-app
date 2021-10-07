@@ -1,0 +1,30 @@
+@import "src/shared/styles/_base";
+
+.openMenu {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: $white-color;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity cubic-bezier(0.4, 0, 0.2, 1);
+}
+.closeMenu {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modalContent {
+  width: 100%;
+}
+@include tablet {
+  .openMenu {
+    display: none;
+  }
+  .closeMenu {
+    display: none;
+  }
+}

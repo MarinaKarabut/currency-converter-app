@@ -1,0 +1,8 @@
+@import "src/shared/styles/base";
+
+.nav {
+  @include tablet {
+    @include flex(center, center);
+    margin-right: 40px;
+  }
+}
